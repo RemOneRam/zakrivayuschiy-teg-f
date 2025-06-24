@@ -2,7 +2,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--font-main, fantasy);
-  font-variation-settings: "wght" var(--weight-text);
+  font-variation-settings: var(--weight-text);
   align-items: center;
   justify-content: center;
   background-image: repeating-linear-gradient(
@@ -61,7 +61,7 @@
 
 .card__title {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: var(--weight-title);
   padding-top: 3px;
   padding-left: 10px;
   padding-bottom: 7px;
@@ -133,7 +133,7 @@
   padding-right: 25px;
   line-height: 21px;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: var(--weight-text);
 }
 
 .card__text-end {
@@ -197,7 +197,7 @@
 
 .button__text {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: var(--weight-text);
   position: relative;
   display: inline-block;
   z-index: 2;
@@ -256,7 +256,7 @@
 .modal__text {
   font-family: var(--font-accent), fantasy;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: var(--weight-text);
   text-transform: uppercase;
   line-height: 150%;
 }
