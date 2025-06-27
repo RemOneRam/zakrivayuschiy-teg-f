@@ -163,6 +163,9 @@
 
 .button:focus {
   outline: none;
+}
+
+.button:focus-visible {
   box-shadow: 2px 2px #000;
 }
 
@@ -187,15 +190,14 @@
 .button__end {
   align-items: center;
   display: flex;
-  margin-top: 50px;
-  padding: 15px 16px;
-  position: relative;
+  padding: 15px 20px;
   margin: 50px auto 0;
+  gap: 8px;
 }
 
 .button__end svg {
   position: relative;
-  height: 21px;
+  width: 21px;
   mix-blend-mode: difference;
   z-index: 2;
 }
@@ -217,6 +219,14 @@
   cursor: pointer;
   max-height: 38px;
   padding: 0;
+}
+
+.card__icon-button:focus {
+  outline: none;
+}
+
+.card__icon-button:focus-visible {
+  border: 2px solid var(--color-contour);
 }
 
 .card__like-button {
@@ -288,6 +298,7 @@
     margin-left: 34.5px;
     margin-bottom: 100px;
     gap: 8px;
+    padding: 13px 19px;
   }
 
   .image_button {
@@ -301,7 +312,7 @@
   }
 
   .button__end svg {
-    height: 28px;
+    width: 28px;
   }
 
   .modal {
@@ -311,5 +322,10 @@
 
   .modal__button {
     width: 257px;
+  }
+
+  .button__text {
+    width: 100%;
+    white-space: nowrap;
   }
 }
