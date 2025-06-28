@@ -208,7 +208,7 @@
   mix-blend-mode: difference;
 }
 
-.image_button {
+.modal__image_button {
   width: 39px;
 }
 
@@ -299,11 +299,6 @@
     margin-bottom: 100px;
     gap: 8px;
     padding: 13px 19px;
-  }
-
-  .image_button {
-    height: 28px;
-    width: 28px;
   }
 
   .card__label {
